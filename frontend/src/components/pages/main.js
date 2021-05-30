@@ -50,7 +50,7 @@ const axios = require('axios')
          return(
              <div style={{textAlign:'center'}}>
                    
-              <h1>Search your Car</h1>
+              <h1>Search cars here !!!</h1>
              
            <input type="text"
            value={this.state.input} 
@@ -58,7 +58,7 @@ const axios = require('axios')
            placeholder="audi , mercedes , rolls royce ...." 
             onChange={(e)=>this.setState({input:e.target.value})}
           style={{height:30}}
-       />
+       /><br />
     <button style={{height:30}} onClick={this.submitting}>search</button>
            
                  <div>
